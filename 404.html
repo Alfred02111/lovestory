@@ -3,26 +3,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Love Story</title>
     <style>
         body, html { height: 100%; margin: 0; padding: 0; }
         #root { display: flex; height: 100%; }
     </style>
-    <script>
-        // Перенаправляем все запросы на index.html
-        sessionStorage.redirect = location.href;
-    </script>
-    <meta http-equiv="refresh" content="0;url=/lovestory/">
 </head>
 <body>
     <div id="root"></div>
     <script src="/lovestory/_expo/static/js/web/entry-5e57fe70e0a0bc9a8a8dab2b2b750ca9.js" defer></script>
-    <script>
-        // Запасной вариант редиректа
-        if (!sessionStorage.redirect) {
-            window.location.replace('/lovestory/');
-        }
-    </script>
 </body>
 </html>
